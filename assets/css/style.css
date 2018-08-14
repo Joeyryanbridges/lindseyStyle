@@ -1,7 +1,48 @@
+* {
+  margin:auto; 
+  padding:0; 
+  border: 0; 
+}
+
 h4 {
-    font-family: 'Amatic SC', cursive;
-    font-size: 3em;
-    color:  rgb(223, 164, 13);
+  font-family: 'Wire One', sans-serif;
+  font-size: 2em;
+  color: white;
+}
+
+h5 {
+  font-family: 'Wire One', sans-serif;
+  font-size: 2em;
+  color: white;
+  text-shadow: 8px 8px 12px black;
+}
+
+h6{
+  font-family: 'Wire One', sans-serif;
+  font-size: 2em;
+  color: black;
+  text-shadow: 8px 8px 12px black;
+}
+
+p {
+  font-family: 'Wire One', sans-serif;
+  font-size: 2em;
+  color: white;
+  text-shadow: 8px 8px 12px black;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  padding: .5rem 1rem;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  border-radius: 5.3rem;
 }
 
 /*NavBAr*/
@@ -9,7 +50,7 @@ h4 {
 .navbar-light .navbar-toggler {
     color: rgba(0,0,0,36.5);
     border-color: rgba(50,34,0,96.1);
-    background: lightyellow;
+    background: transparent;
 }
 
 .first-slide {
@@ -50,7 +91,18 @@ h4 {
     min-width: 100%;
     height: 76rem;
 }
-  
+
+  /* Parallax
+  -------------------------------------------------- */
+  /* .parallax {
+    background: url(https://2014photoshopsig.files.wordpress.com/2016/09/image-6-background-with-bokeh-lights.jpg?w=1800);
+    
+  } */
+
+
+
+    /* end Parallax
+  -------------------------------------------------- */
   
   /* MARKETING CONTENT
   -------------------------------------------------- */
@@ -82,6 +134,8 @@ h4 {
     line-height: 1;
     letter-spacing: -.05rem;
   }
+
+
   
   
   /* RESPONSIVE CSS
