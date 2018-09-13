@@ -1,0 +1,25 @@
+{
+  "name": "lindseystyle",
+  "version": "1.0.0",
+  "description": "webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joeyryanbridges/lindseyStyle.git"
+  },
+  "keywords": [
+    "hair"
+  ],
+  "author": "Joey R. Bridges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joeyryanbridges/lindseyStyle/issues"
+  },
+  "homepage": "https://github.com/Joeyryanbridges/lindseyStyle#readme",
+  "dependencies": {
+    "babel": "^6.23.0"
+  }
+}
