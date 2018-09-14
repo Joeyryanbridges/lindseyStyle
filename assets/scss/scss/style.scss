@@ -4,16 +4,37 @@ $text-color: green;
 
 body.centerImg{
   background: url('/../assets/images/succ2.png') no-repeat center fixed; 
-  background-size: 50%;
+  background-size: 56%;
   background-color: ghostwhite; 
 }
 
+.linlin {
+  border-radius: 25px;
+
+  /*box-shadow: 9px 9px 20px black;*/ 
+}
+
 #linBridges p {
-  font-size: 9em;
+  font-size: 7em;
   text-align: center;
-  margin-top: 26%;
-  font-family: 'Amatic SC', cursive;
+  margin-top: 40.5%;
+  font-family: 'Sacramento', cursive;
   animation: fadein 8s;
+}
+
+.image { 
+  position: relative; 
+  width: 100%; /* for IE 6 */
+}
+
+h6 { 
+  position: absolute; 
+  font-size: 1.3em; 
+  top: 200px; 
+  left: 0; 
+  margin-left: 30px; 
+  width: 100%; 
+  color: white; 
 }
 
 @keyframes fadein {
