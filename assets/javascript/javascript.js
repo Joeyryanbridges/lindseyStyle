@@ -1,4 +1,3 @@
-
 jQuery(document).ready(function () {
     jQuery('.postOne').addClass('hidden').viewportChecker({
         classToAdd: 'visible animated fadeInLeft',

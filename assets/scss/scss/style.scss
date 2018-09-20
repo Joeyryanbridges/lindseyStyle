@@ -18,7 +18,7 @@ body.centerImg{
   font-size: 7em;
   text-align: center;
   margin-top: 40.5%;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Julius Sans One', sans-serif;
   animation: fadein 8s;
 }
 
@@ -42,9 +42,24 @@ h6 {
   color: white; 
 }
 
+.backgroundAbout p {
+  background-color: ghostwhite; 
+  opacity: 0.8;
+  border-radius: 5px; 
+}
+
 .card {
   margin-left:20px; 
 }
+
+.hidden{
+	opacity: 0;
+}
+
+.visible{
+	opacity: 1;
+}
+
 
 @keyframes fadein {
   from { opacity: 0; }
