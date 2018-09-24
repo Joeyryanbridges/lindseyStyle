@@ -347,7 +347,46 @@ body.centerImg{
 
 /*375px*/
 @media screen and (max-width:375px) {
+  .navbar {
+    width: 135%;
+}
 
+#linBridges p {
+  font-size: 2.1em;
+  text-align: center;
+  margin-top: 187.5%;
+  margin-left: 67px;
+  margin-right: -55px;
+  font-family: 'Julius Sans One', sans-serif;
+  animation: fadein 8s;
+}
+
+.linlin {
+  border-radius: 25px;
+  margin-left: -24px;
+  /* box-shadow: 9px 9px 20px black; */
+}
+
+.backgroundAbout p {
+  background-color: ghostwhite;
+  opacity: 0.8;
+  width: 139%;
+  margin-left: 3px;
+  margin-top: 23px;
+  border-radius: 5px;
+}
+.card {
+  margin-left: 83px;
+  margin-top: 99px;
+}
+.footer-distributed {
+  position: absolute;
+  width: 135%;
+}
+
+.footer-distributed .footer-right{
+  margin-left: 0%;
+}
 }
 
 /*320px*/
@@ -361,11 +400,6 @@ body.centerImg{
 and (device-width : 375px) 
 and (device-height : 812px) 
 and (-webkit-device-pixel-ratio : 3) {
-
-}
-
-  @media screen and (max-width: 375px) {
-
 
 }
 
