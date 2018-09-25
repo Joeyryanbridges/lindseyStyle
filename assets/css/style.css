@@ -1,7 +1,7 @@
 body.centerImg{
-    background: url('/../assets/images/succ2.png') no-repeat center fixed; 
+    background: url('../images/succ2.png') no-repeat center fixed;
     background-size: 56%;
-    background-color: ghostwhite; 
+    background-color: white; 
   }
   
   .linlin {
