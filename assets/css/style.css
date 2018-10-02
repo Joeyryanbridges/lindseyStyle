@@ -349,8 +349,8 @@ body.centerImg{
 @media screen and (max-width:375px) {
 
   body.centerImg {
-    background: url('../images/succ2.png') no-repeat top fixed;
-    /* background-size: 146%; */
+    background: url('../images/succ2.png') no-repeat center relative;
+    background-size: 146%;  
     background-color: ghostwhite;
 }
   .navbar {
