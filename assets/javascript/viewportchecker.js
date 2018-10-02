@@ -43,7 +43,7 @@
                 viewportEnd = (viewportStart + boxSize.width);
             }
 
-            // Loop through all given dom elements
+            // Loop through all given dom elements for movement
             $elem.each(function () {
                 var $obj = $(this),
                     objOptions = {},

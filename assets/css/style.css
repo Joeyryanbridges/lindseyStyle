@@ -347,6 +347,12 @@ body.centerImg{
 
 /*375px*/
 @media screen and (max-width:375px) {
+
+  body.centerImg {
+    /* background: url('../images/succ2.png') no-repeat center fixed; */
+    background-size: 146%;
+    background-color: ghostwhite;
+}
   .navbar {
     width: 135%;
 }
@@ -400,12 +406,36 @@ body.centerImg{
 and (device-width : 375px) 
 and (device-height : 812px) 
 and (-webkit-device-pixel-ratio : 3) {
-
+  #linBridges p {
+    font-size: 2.1em;
+    text-align: center;
+    margin-top: 239.5%;
+    margin-left: 67px;
+    margin-right: -55px;
+    font-family: 'Julius Sans One', sans-serif;
+    animation: fadein 8s;
+  }
 }
 
 /*galaxy s5*/
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-  
+  #linBridges p {
+    font-size: 1.9em;
+    text-align: center;
+    margin-top: 210.5%;
+    margin-left: 67px;
+    margin-right: -55px;
+    font-family: 'Julius Sans One', sans-serif;
+    animation: fadein 8s;
+}
+
+.linlin {
+  border-radius: 25px;
+  width: 343%;
+  margin-left: -19px;
+  /* margin-right: -13px; */
+  /* box-shadow: 9px 9px 20px black; */
+}
  
 }
   
