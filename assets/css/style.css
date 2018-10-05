@@ -74,6 +74,7 @@ body.centerImg{
     width: 100%;
     text-align: left;
     font: bold 16px sans-serif;
+    opacity: 0.9;
   
     padding: 55px 50px;
     margin-top: 80px;
@@ -350,7 +351,7 @@ body.centerImg{
 
   body.centerImg {
     background: url('../images/succ2.png') no-repeat center relative;
-    background-size: 146%;  
+    /* background-size: 146%;   */
     background-color: ghostwhite;
 }
   .navbar {
